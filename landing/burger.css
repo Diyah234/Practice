@@ -87,7 +87,7 @@ header {
     margin-top: 30px;
     margin-left: 20px;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
      .nav_menu {
         position: fixed;
         top: 0;
@@ -162,4 +162,18 @@ a:hover {
     margin-left: 4.5rem;
      margin-bottom: 0;
 }
+}
+@media screen and (min-width: 1024px) {
+    h1{
+        font-size: 85px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .box{
+        height: 40vh;
+    }
+    .nav_list{
+        margin-left: 32rem;
+    }
 }
