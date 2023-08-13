@@ -73,7 +73,7 @@ header{
     width: 100%;
 }
 /* button */
-button{
+.btn{
     width: 12%;
     height: 45px;
     padding: 15px;
@@ -104,13 +104,13 @@ button{
 }
 .gen2{
     position: absolute;
-    top: 190vh;
+    top: 178vh;
 }
 .gen3{
     position: absolute;
-    top: 285vh;
+    top: 268vh;
 }
-.grid img:hover + button{
+.grid img:hover + .btn{
     display: block;
 }
 .ctn{
@@ -128,4 +128,61 @@ p{
 
 #navbar.navbar-scroll{
     display: none;
+}
+#navbar.navbar-show{
+    display: block;
+}
+
+
+
+/* slide-left */
+.slide-left {
+    animation: 3s slide-left;
+  }
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+
+/* slide-right */
+  .slide-right {
+    animation: 3s slide-right;
+  }
+  @keyframes slide-right {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+
+  .slide-right, .slide-left {
+    width: 100%;
+  }
+
+/* footer */
+footer{
+    text-align: center;
+    background-color: #e0dfdf;
+    padding: 30px;
+    margin-top: 30px;
+    /* position: absolute;
+    bottom: -210vh;
+    left: 50%;
+    width: 100%; */
+}
+#decrease, #increase{
+    width: 30px;
+    background-color: #fff;
+}
+#decrease{
+    margin-right: 10px;
+}
+#increase{
+    margin-left: 10px;
 }
