@@ -19,7 +19,7 @@
                 <div class="title">
                     <h1>DiYaH</h1>
                 </div>
-                <ul class="navs">
+                <ul class="navs nav3">
                     <li><a href="">WOMEN</a></li>
                     <li><a href="">MEN</a></li>
                     <li><a href="">KIDS</a></li>
@@ -29,9 +29,15 @@
                 <i class="fa-solid fa-magnifying-glass" style="color: #3f3f3f;"></i>
                 <input type="text" placeholder="Search">
             </div>
+            <div id="nav-icon3">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
             </div>
             <div class="navs nav2">
-                <ul class="navs">
+                <ul class="navs block" id="nav-bar">
                     <li><a href="">New In</a></li>
                     <li><a href="">DiYaH Deals</a></li>
                     <li><a href="">Trending</a></li>
@@ -53,25 +59,25 @@
         <div class="grid">
             <div class="slide-right">
             <img src="images/image1.webp">
-            <button class="btn first gen1">Quick Add</button>
+            <button class="btn first gen1 gen1a" onclick="clicking()">Quick Add</button>
             <p>Melissa Micro Mini Skirt SET - Orange/combo</p>
             <p class="price">&#8358;27,600.00</p>
         </div>
         <div class="slide-right">
             <img src="images/image2.webp">
-            <button class="btn second gen1">Quick Add</button>
+            <button class="btn second gen1 gen1b" onclick="clicking()">Quick Add</button>
             <p>Get Groovy Midi Dress - Brown/combo</p>
             <p class="price">&#8358;18,900.00</p>
         </div>
         <div class="slide-left">
             <img src="images/image3.webp">
-            <button class="btn third gen1">Quick Add</button>
+            <button class="btn third gen1 gen1c" onclick="clicking()">Quick Add</button>
             <p>Born To Be A Rockstar Top - Taupe</p>
             <p class="price">&#8358;12,600.00</p>
         </div>
         <div class="slide-left">
             <img src="images/image4.webp">
-            <button class="btn fourth gen1">Quick Add</button>
+            <button class="btn fourth gen1 gen1d" onclick="clicking()">Quick Add</button>
             <p>Belleville Baggy Ripped Non Stretch Jeans - Black Wash</p>
             <p class="price">&#8358;31,500.00</p>
         </div>
@@ -79,25 +85,25 @@
         <div class="grid ctn">
             <div class="slide-right">
                 <img src="images/image5.webp">
-                <button class="btn first gen2">Quick Add</button>
+                <button class="btn first gen2 gen2a" onclick="clicking()">Quick Add</button>
                 <p>Glowing Nights Metallic Short - Silver</p>
                 <p class="price">&#8358;19,700.00</p>
             </div>
             <div class="slide-right">
                 <img src="images/image6.webp">
-                <button class="btn second gen2">Quick Add</button>
+                <button class="btn second gen2 gen2b" onclick="clicking()">Quick Add</button>
                 <p>Always Top Tier Satin Top - Rust</p>
                 <p class="price">&#8358;13,800.00</p>
             </div>
             <div class="slide-left">
                 <img src="images/image7.webp">
-                <button class="btn third gen2">Quick Add</button>
+                <button class="btn third gen2 gen2c" onclick="clicking()">Quick Add</button>
                 <p>Nichole Metallic Plisse Pant Set - Green</p>
                 <p class="price">&#8358;24,400.00</p>
             </div>
             <div class="slide-left">
                 <img src="images/image8.webp">
-                <button class="btn fourth gen2">Quick Add</button>
+                <button class="btn fourth gen2 gen2d" onclick="clicking()">Quick Add</button>
                 <p>Step By Step Utility Straight Leg Jeans - Light Wash</p>
                 <p class="price">&#8358;27,600.00</p>
             </div>
@@ -105,35 +111,44 @@
         <div class="grid ctn">
             <div class="slide-right">
                 <img src="images/image9.webp">
-                <button class="btn first gen3">Quick Add</button>
+                <button class="btn first gen3 gen3a" onclick="clicking()">Quick Add</button>
                 <p>Adelina Midi Dress</p>
                 <p class="price">&#8358;27,600.00</p>
             </div>
             <div class="slide-right">
                 <img src="images/image10.webp">
-                <button class="btn second gen3">Quick Add</button>
+                <button class="btn second gen3 gen3b" onclick="clicking()">Quick Add</button>
                 <p>Summer Nights Reflective Crochet Maxi Dress - Sliver</p>
                 <p class="price">&#8358;33,100.00</p>
             </div>
             <div class="slide-left">
                 <img src="images/image11.webp">
-                <button class="btn third gen3">Quick Add</button>
+                <button class="btn third gen3 gen3c" onclick="clicking()">Quick Add</button>
                 <p>Always Top Tier Satin Top - Sage</p>
                 <p class="price">&#8358;13,800.00</p>
             </div>
             <div class="slide-left">
-                <img src="images/image12.webp">
-                <button class="btn fourth gen3">Quick Add</button>
+                <img src="images/image12.webp" >
+                <button class="btn fourth gen3 gen3d" onclick="clicking()">Quick Add</button>
                 <p>Bella Ruched Mini Dress - Orange</p>
                 <p class="price">&#8358;27,500.00</p>
             </div>
         </div>
     </section>
-    <footer>
+    <footer id="footer1">
         <button id="decrease">-</button>
         <label id="count">0</label>
         <button id="increase">+</button>
+        <button class="cart">ADD TO CART</button>
     </footer>
+    <footer id="footer2" >
+        <div class="footer2">
+        <p class="items" id="items">2 ITEMS</p>
+        <a href="checkout.html" class="cart2">VIEW CART</a>
+        <p class="total">&#8358;2,000</p>
+    </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="nova.js"></script>
 </body>
 
