@@ -78,6 +78,8 @@ document.getElementById("increase").onclick = function(){
 function clicking(){
   document.querySelector("footer").style.display = "block";
 }
+var button = document.getElementById("btn");
+button.addEventListener("touchstart", clicking);
 
 // menubar
 $(document).ready(function(){
