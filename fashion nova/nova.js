@@ -75,11 +75,20 @@ document.getElementById("increase").onclick = function(){
 //   document.querySelector("footer").style.display = "block";
 // })
 
-function clicking(){
+function clicking(event){
   document.querySelector("footer").style.display = "block";
 }
-var button = document.getElementById("btn");
-button.addEventListener("touchstart", clicking);
+function touch(event){
+  document.getElementById("btn").style.display = "block";
+}
+
+var btn = document.querySelectorAll(".btn");
+var images = document.querySelectorAll("img");
+images.addEventListener("touchstart", touch);
+btn.addEventListener("touchstart" , clicking);
+
+
+
 
 // menubar
 $(document).ready(function(){
