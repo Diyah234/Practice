@@ -350,7 +350,7 @@ footer{
         display: none;
     }
 }
-@media screen and (min-width:481px) and (max-width: 767px) {
+@media screen and (min-width:401px) and (max-width: 767px) {
     #nav-icon3{
         right: 30px;
         top: 35px;
@@ -401,40 +401,40 @@ footer{
  }
  .gen1a{
      position: absolute;
-     top: 580px;
+     top: 590px;
  }
  .gen1b{
-     top: 160vh;
+     top: 125vh;
  }
  .gen1c{
-     top: 250vh;
+     top: 185vh;
  }
  .gen1d{
-     top: 330vh;
+     top: 240vh;
  }
  .gen2a{
-     top: 430vh;
+     top: 310vh;
  }
  .gen2b{
-     top: 510vh;
+     top: 369vh;
  }
  .gen2c{
-     top: 590vh;
+     top: 425vh;
  }
  .gen2d{
-     top: 670vh;
+     top: 482vh;
  }
  .gen3a{
-     top: 760vh;
+     top: 550vh;
  }
  .gen3b{
-     top: 845vh;
+     top: 607vh;
  }
  .gen3c{
-     top: 935vh;
+     top: 668vh;
  }
  .gen3d{
-     top: 1010vh;
+     top: 725vh;
  }
  .first, .second,.third,.fourth{
      left: 36%;
@@ -466,7 +466,7 @@ footer{
      font-size: 20px;
  }
 }
-@media screen and (min-width: 376px) and (max-width:480px) {
+/* @media screen and (min-width: 401px) and (max-width:480px) {
     #nav-icon3{
        right: 30px;
        top: 35px;
@@ -581,9 +581,9 @@ footer{
 .cart2{
     font-size: 20px;
 }
-}
+} */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
     #nav-icon3{
         right: 30px;
         top: 35px;
@@ -637,37 +637,37 @@ footer{
     top: 530px;
 }
 .gen1b{
-    top: 150vh;
+    top: 120vh;
 }
 .gen1c{
-    top: 230vh;
+    top: 180vh;
 }
 .gen1d{
-    top: 300vh;
+    top: 235vh;
 }
 .gen2a{
-    top: 390vh;
+    top: 300vh;
 }
 .gen2b{
-    top: 465vh;
+    top: 360vh;
 }
 .gen2c{
-    top: 537vh;
+    top: 415vh;
 }
 .gen2d{
-    top: 610vh;
+    top: 470vh;
 }
 .gen3a{
-    top: 700vh;
+    top: 535vh;
 }
 .gen3b{
-    top: 770vh;
+    top: 595vh;
 }
 .gen3c{
-    top: 850vh;
+    top: 650vh;
 }
 .gen3d{
-    top: 920vh;
+    top: 710vh;
 }
 
   

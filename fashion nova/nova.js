@@ -1,38 +1,4 @@
-// var navbar = document.getElementById("header");
 
-// document.body.addEventListener("scroll" , scrollNav);
-// function scrollNav(){
-//   if (document.body.scrollTop > 0) {
-//     navbar.classList.add("navbar-scroll");
-//   }else{
-//     navbar.classList.remove("navbar-scroll");
-//   }
-// }
-
-// navbar.addEventListener("scroll" ,scrolling);
-
-// function scrolling(){
-//     document.getElementById("navbar").classList.add("navbar-scroll");
-// }
-
-
-// document.body.addEventListener("scroll", function(){
-//     let Navbar = document.getElementById('navbar');
-//     if(document.body.scrollTop > 0){
-//       Navbar.classList.add("navbar-scroll");
-//     }else{
-//       Navbar.classList.remove("navbar-scroll");
-//     }
-//   });
-
-// document.body.addEventListener("scroll", function(){
-//     let Navbar = document.getElementById('navbar');
-//     if(document.documentElement.scrollTop > 0){
-//       Navbar.classList.add("navbar-scroll");
-//     }else{
-//       Navbar.classList.remove("navbar-scroll");
-//     }
-//   });
   
   window.onscroll = ()=> {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
@@ -46,13 +12,7 @@
   }
 
 
-  // window.onscroll = function() {myFunction()};
-
-  // function myFunction() {
-  //   if (document.documentElement.scrollTop > 200) {
-  //     document.getElementById("grid").className = "slideUp";
-  //   }
-  // }
+  
 
 let count = 0;
 document.getElementById("decrease").onclick = function(){
@@ -71,21 +31,16 @@ document.getElementById("increase").onclick = function(){
    document.getElementById("items").innerHTML = count + " items"
 }
 
-// document.querySelector("img").addEventListener("click" , function(){
-//   document.querySelector("footer").style.display = "block";
-// })
 
-function clicking(event){
+function clicking(){
   document.querySelector("footer").style.display = "block";
 }
-function touch(event){
-  document.getElementById("btn").style.display = "block";
-}
 
-var btn = document.querySelectorAll(".btn");
-var images = document.querySelectorAll("img");
-images.addEventListener("touchstart", touch);
-btn.addEventListener("touchstart" , clicking);
+// var button = document.querySelectorAll(".btn");
+// button.addEventListener("touchstart", function(event){
+//   event.preventDefault();
+//   clicking(event);
+// });
 
 
 
@@ -108,6 +63,7 @@ menuButton.addEventListener("click", function() {
   }
 });
 
+// footer
 document.querySelector(".cart").onclick= function(){
   document.getElementById("footer1").style.display = "none";
   document.getElementById("footer2").style.display = "block";
