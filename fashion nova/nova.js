@@ -36,14 +36,6 @@ function clicking(){
   document.querySelector("footer").style.display = "block";
 }
 
-// var button = document.querySelectorAll(".btn");
-// button.addEventListener("touchstart", function(event){
-//   event.preventDefault();
-//   clicking(event);
-// });
-
-
-
 
 // menubar
 $(document).ready(function(){
@@ -69,3 +61,7 @@ document.querySelector(".cart").onclick= function(){
   document.getElementById("footer2").style.display = "block";
 
 };
+
+
+var button = document.querySelectorAll(".btn");
+button.addEventListener("touchstart",clicking);

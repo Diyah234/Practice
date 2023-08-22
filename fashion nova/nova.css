@@ -350,7 +350,7 @@ footer{
         display: none;
     }
 }
-@media screen and (min-width:401px) and (max-width: 767px) {
+@media screen and (min-width:481px) and (max-width: 767px) {
     #nav-icon3{
         right: 30px;
         top: 35px;
@@ -400,42 +400,42 @@ footer{
      height: 45px;
  }
  .gen1a{
-     position: absolute;
-     top: 590px;
- }
- .gen1b{
-     top: 125vh;
- }
- .gen1c{
-     top: 185vh;
- }
- .gen1d{
-     top: 240vh;
- }
- .gen2a{
-     top: 310vh;
- }
- .gen2b{
-     top: 369vh;
- }
- .gen2c{
-     top: 425vh;
- }
- .gen2d{
-     top: 482vh;
- }
- .gen3a{
-     top: 550vh;
- }
- .gen3b{
-     top: 607vh;
- }
- .gen3c{
-     top: 668vh;
- }
- .gen3d{
-     top: 725vh;
- }
+    position: absolute;
+    top: 700px;
+}
+.gen1b{
+    top: 1300px;
+}
+.gen1c{
+    top: 1900px;
+}
+.gen1d{
+    top: 2500px;
+}
+.gen2a{
+    top: 3210px;
+}
+.gen2b{
+    top: 3850px;
+}
+.gen2c{
+    top: 4450px;
+}
+.gen2d{
+    top: 5100px;
+}
+.gen3a{
+    top: 5750px;
+}
+.gen3b{
+    top: 6400px;
+}
+.gen3c{
+    top: 7020px;
+}
+.gen3d{
+    top: 7620px;
+}
  .first, .second,.third,.fourth{
      left: 36%;
  }
@@ -466,7 +466,7 @@ footer{
      font-size: 20px;
  }
 }
-/* @media screen and (min-width: 401px) and (max-width:480px) {
+@media screen and (max-width:480px) {
     #nav-icon3{
        right: 30px;
        top: 35px;
@@ -520,37 +520,37 @@ footer{
     top: 580px;
 }
 .gen1b{
-    top: 125vh;
+    top: 1100px;
 }
 .gen1c{
-    top: 190vh;
+    top: 1700px;
 }
 .gen1d{
-    top: 255vh;
+    top: 2200px;
 }
 .gen2a{
-    top: 325vh;
+    top: 2850px;
 }
 .gen2b{
-    top: 390vh;
+    top: 3400px;
 }
 .gen2c{
-    top: 455vh;
+    top: 3900px;
 }
 .gen2d{
-    top: 515vh;
+    top: 4450px;
 }
 .gen3a{
-    top: 585vh;
+    top: 5050px;
 }
 .gen3b{
-    top: 650vh;
+    top: 5600px;
 }
 .gen3c{
-    top: 710vh;
+    top: 6200px;
 }
 .gen3d{
-    top: 770vh;
+    top: 6700px;
 }
 .first, .second,.third,.fourth{
     left: 36%;
@@ -581,123 +581,5 @@ footer{
 .cart2{
     font-size: 20px;
 }
-} */
-
-@media screen and (max-width: 400px) {
-    #nav-icon3{
-        right: 30px;
-        top: 35px;
-        position: absolute;
-        z-index: 1;
-     }
-     .title h1{
-         font-size: 38px;
-     }
-   .navs{
-     margin-left: 10px;
-   }  
-   .nav3{
-     margin-top: 60px;
-     margin-left: -170px;
-   }
-   .search-bar{
-     margin-left: -170px;
-     width: 38%;
-     margin-top: -2px;
-   }
-   input{
-     width: 40%;
-   }
-   .block{
-     display: flex;
-     flex-direction: column;
-     position: absolute;
-     top: 120px;
-     background-color: #fff;
-     width: 100%;
-     height: 100vh;
-     left: 0;
-     overflow-y: scroll;
-     display: none;
-   }
-   .block li{
-     margin-top: 5px;
-     padding: 20px 10px;
-     border-bottom: 1px solid black;
-   }
-   .grid{
-     grid-template-columns: repeat(1, 90%);
-   }
-   .btn{
-     width: 30%;
-     height: 45px;
- }
- .gen1a{
-    position: absolute;
-    top: 530px;
-}
-.gen1b{
-    top: 120vh;
-}
-.gen1c{
-    top: 180vh;
-}
-.gen1d{
-    top: 235vh;
-}
-.gen2a{
-    top: 300vh;
-}
-.gen2b{
-    top: 360vh;
-}
-.gen2c{
-    top: 415vh;
-}
-.gen2d{
-    top: 470vh;
-}
-.gen3a{
-    top: 535vh;
-}
-.gen3b{
-    top: 595vh;
-}
-.gen3c{
-    top: 650vh;
-}
-.gen3d{
-    top: 710vh;
 }
 
-  
- .first, .second,.third,.fourth{
-     left: 36%;
- }
- .grid img:hover + .btn{
-     display: block;
- }
- footer{
-     right: 0;
-     
- }
- #increase, #decrease{
-     width: 30px;
-     border-radius: 4px;
- }
- #increase{
-     margin-left: 20px;
- }
- #decrease{
-     margin-left: -50px;
- }
- #count{
-     right: 62%;
- }
- .items, .total{
-     font-size: 18px;
- }
- .cart2{
-     font-size: 20px;
- }
-}
