@@ -63,5 +63,4 @@ document.querySelector(".cart").onclick= function(){
 };
 
 
-var button = document.querySelectorAll(".btn");
-button.addEventListener("touchstart",clicking);
+
