@@ -398,6 +398,7 @@ footer{
    .btn{
      width: 30%;
      height: 45px;
+     display: block;
  }
  .gen1a{
     position: absolute;
@@ -514,6 +515,7 @@ footer{
   .btn{
     width: 30%;
     height: 45px;
+    display: block;
 }
 .gen1a{
     position: absolute;
