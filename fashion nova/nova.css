@@ -396,46 +396,12 @@ footer{
      grid-template-columns: repeat(1, 90%);
    }
    .btn{
-     width: 30%;
-     height: 45px;
-     display: block;
- }
- .gen1a{
-    
-    top: 700px;
+    width: 40%;
+    height: 45px;
+    display: block;
 }
-.gen1b{
-    top: 1300px;
-}
-.gen1c{
-    top: 1900px;
-}
-.gen1d{
-    top: 2500px;
-}
-.gen2a{
-    top: 3210px;
-}
-.gen2b{
-    top: 3850px;
-}
-.gen2c{
-    top: 4450px;
-}
-.gen2d{
-    top: 5100px;
-}
-.gen3a{
-    top: 5750px;
-}
-.gen3b{
-    top: 6400px;
-}
-.gen3c{
-    top: 7020px;
-}
-.gen3d{
-    top: 7620px;
+.gen1 , .gen2,.gen3{
+    position: static;
 }
  .first, .second,.third,.fourth{
      left: 36%;
