@@ -401,7 +401,7 @@ footer{
      display: block;
  }
  .gen1a{
-    position: absolute;
+    
     top: 700px;
 }
 .gen1b{
@@ -513,47 +513,14 @@ footer{
     grid-template-columns: repeat(1, 90%);
   }
   .btn{
-    width: 30%;
+    width: 40%;
     height: 45px;
     display: block;
 }
-.gen1a{
-    position: absolute;
-    top: 580px;
+.gen1 , .gen2,.gen3{
+    position: static;
 }
-.gen1b{
-    top: 1100px;
-}
-.gen1c{
-    top: 1700px;
-}
-.gen1d{
-    top: 2200px;
-}
-.gen2a{
-    top: 2850px;
-}
-.gen2b{
-    top: 3400px;
-}
-.gen2c{
-    top: 3900px;
-}
-.gen2d{
-    top: 4450px;
-}
-.gen3a{
-    top: 5050px;
-}
-.gen3b{
-    top: 5600px;
-}
-.gen3c{
-    top: 6200px;
-}
-.gen3d{
-    top: 6700px;
-}
+
 .first, .second,.third,.fourth{
     left: 36%;
 }
