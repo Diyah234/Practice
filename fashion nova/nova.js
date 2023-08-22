@@ -19,8 +19,8 @@ document.getElementById("decrease").onclick = function(){
    count -=1;
    document.getElementById("count").innerHTML = count;
 
-   if (count < 0) {
-    count = 0;
+   if (count < 1) {
+    count = 1;
     document.getElementById("count").innerHTML = count;
   }
 }
