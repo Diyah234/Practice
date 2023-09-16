@@ -2,11 +2,12 @@ var slider = document.getElementById("slide");
 var count = 0;
 
 var images = [
-    './burger1.jpg',
-    './burger2.jpg',
-    './burger3.jpg',
-    './burger4.jpg',
-    './drink.jpg'
+    './slide2.png',
+    './slide6.png',
+    './slide1.png',
+    './slide3.png',
+    './slide4.png',
+    './slide5.png'
 ];
 
 function next() {
