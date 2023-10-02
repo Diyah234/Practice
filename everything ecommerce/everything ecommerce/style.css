@@ -373,7 +373,7 @@ body{
   }
   
   
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 481px) {
     .menu , .close2{
         display: none;
     }
@@ -381,7 +381,7 @@ body{
         display: none;
     }
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 400px) {
     body{
         overflow-x: hidden;
         overflow-y: scroll;
@@ -589,6 +589,215 @@ body{
     padding: 20px;
     height: 190px;
     width: 300px;
+    right: 20px;
+    z-index: 10;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    top:100px;
+    display: none;
+  }
+  .no{
+    right: 190px;
+    top: 18px;
+  }
+  }
+
+  @media screen and (min-width: 400px) and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        padding-bottom: 40px;
+    }
+    .menu,.close2{
+        height: 18px;
+        margin-left: -60px;
+        padding: 18px;
+    }
+    .menu:hover, .close2:hover{
+        cursor: pointer;
+    }
+    .close2{
+        z-index: 10000;
+        margin-top: -12px;
+    }
+    #close2{
+        display: none;
+    }
+    .flex3{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: white;
+        left: -10px;
+        top: -10px;
+        padding: 70px 10px;
+        height: 100vh;
+        width: 50%;
+        display: none;
+    }
+    .flex3 li{
+        padding: 8px;
+    }
+    .flex a{
+        color: black;
+        font-weight: 600;
+    }
+    .flex3 a{
+        border: none;
+    }
+    .overlay{
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background: rgba(0, 0, 0, 0.7); 
+    display: block; 
+    z-index: -1; 
+    backdrop-filter: blur(0px);
+    }
+    .index{
+     z-index: 999;
+    }
+    header{
+        padding: 10px 70px;
+        border: none;
+        background-color: white;
+        width: 100%;
+        margin-left: -50px;
+        z-index: 10;
+    }
+     .final{
+        display: block;
+        position: static;
+     }
+     .grid2{
+        display: none;
+     }
+     .overall{
+        background: rgba(0, 0, 0, 0);
+        backdrop-filter: blur(0px);
+        position: static;
+     }
+     .big{
+        margin-top: -270px;
+        margin-bottom: 100px;
+        margin-left: -300px;
+     }
+     .big img{
+        width: 34vh;
+        height: 30vh;
+        border-radius: 0;
+     }
+    .picture{
+        /* margin-left: -110px; */
+        margin-right: 20px;
+        margin-top: 12px;
+        z-index: 0;
+        width: 25%;
+        height: 32px;
+    }
+    .picture img{
+        width: 100%;
+    }
+    .avatar{
+        justify-content: center;
+    }
+    .chart{
+        position: absolute;
+        top: 12px;
+        right: 160px;
+    }
+  
+    .shoe-box{
+        display: none;
+    }
+    .previous img , .next img{
+        width: 10px;
+    }
+    .previous , .next{
+        width: 10px;
+        height: 10px;
+        padding: 9px 12px 20px 12px;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+       
+        top: 100px;
+        left: 0;
+   }
+   .previous{
+    margin-left: -110px;
+  }
+  .next{
+    left: -310px;
+  }
+  .company{
+    margin-right: 100px;
+    margin-left: -540px;
+    margin-top: 350px;
+  }
+  .company h1{
+    font-size: 30px;
+    width: 80%;
+    line-height: 1.2;
+  }
+  .company h4{
+    padding: 10px;
+    margin-left: -10px;
+  }
+  .text{
+    width: 90%;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: -8px;
+  }
+  .underline{
+    /* float: right; */
+    margin-top: -55px;
+    margin-left: 250px;
+  }
+  .box{
+    width: 75%;
+    border-radius: 10px;
+    position: absolute;
+    left: 25px;
+    z-index: 1;
+  }
+  .box img{
+    width: 5%;
+    height: 12px;
+  }
+  #plus{
+    margin-top: 21px;
+  }
+  .company button{
+    width: 88%;
+    margin-top: 70px;
+    /* position: absolute;
+    bottom: -120px; */
+    margin-left: -10px;
+    z-index: 1;
+  }
+  .cart-box{
+    background-color: white;
+    position: absolute;
+    padding: 20px;
+    height: 190px;
+    width: 400px;
+    right: 20px;
+    z-index: 10;
+    border-radius: 5px;
+    top:100px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: none;
+  }
+  .cart-box2{
+    background-color: white;
+    position: absolute;
+    padding: 20px;
+    height: 190px;
+    width: 400px;
     right: 20px;
     z-index: 10;
     border-radius: 5px;

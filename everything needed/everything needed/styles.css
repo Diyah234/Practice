@@ -141,7 +141,7 @@ header{
  }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:400px) {
 
     body{
         overflow-y: scroll;
@@ -153,6 +153,41 @@ header{
     .box ,.box2{
         width: 70%;
         margin-left: 35px;
+    }
+    .box2{
+        margin-top: 20px;
+    }
+    .image1{
+        left: 170px;
+        top: -50px;
+        width: 70%;
+        height: 200vh;
+        z-index: -1;
+    }
+    .image2{
+         display: none;
+    }
+    .toggle-button{
+        width: 40px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:480px){
+
+    body{
+        overflow-y: scroll;
+    }
+    .flex2{
+        display: flex;
+        flex-direction: column;
+    }
+    .box ,.box2{
+        width: 70%;
+        margin-left: 35px;
+    }
+    .box2{
+        margin-top: 20px;
     }
     .image1{
         left: 170px;
