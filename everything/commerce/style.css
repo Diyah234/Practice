@@ -685,8 +685,8 @@ body{
         margin-left: -300px;
      }
      .big img{
-        width: 34vh;
-        height: 30vh;
+        width: 32rem;
+        height: 30rem;
         border-radius: 0;
      }
     .picture{
@@ -730,7 +730,7 @@ body{
     margin-left: -110px;
   }
   .next{
-    left: -310px;
+    left: -320px;
   }
   .company{
     margin-right: 100px;
@@ -758,7 +758,7 @@ body{
     margin-left: 250px;
   }
   .box{
-    width: 75%;
+    width: 22rem;
     border-radius: 10px;
     position: absolute;
     left: 25px;
@@ -772,11 +772,11 @@ body{
     margin-top: 21px;
   }
   .company button{
-    width: 88%;
+    width: 24rem;
     margin-top: 70px;
     /* position: absolute;
     bottom: -120px; */
-    margin-left: -10px;
+    margin-left: -3px;
     z-index: 1;
   }
   .cart-box{
@@ -784,7 +784,7 @@ body{
     position: absolute;
     padding: 20px;
     height: 190px;
-    width: 400px;
+    width: 22rem;
     right: 20px;
     z-index: 10;
     border-radius: 5px;
@@ -797,7 +797,7 @@ body{
     position: absolute;
     padding: 20px;
     height: 190px;
-    width: 400px;
+    width: 22rem;
     right: 20px;
     z-index: 10;
     border-radius: 5px;
@@ -819,7 +819,8 @@ body{
   }
   .menu,.close2{
       height: 18px;
-      margin-left: -60px;
+      margin-left: -50px;
+     display: block;
       padding: 18px;
   }
   .menu:hover, .close2:hover{
@@ -829,7 +830,7 @@ body{
       z-index: 10000;
       margin-top: -12px;
   }
-  #close2{
+  #close2,.close{
       display: none;
   }
   .flex3{
@@ -873,7 +874,7 @@ position: fixed;
       border: none;
       background-color: white;
       width: 100%;
-      margin-left: -50px;
+      margin-left: -70px;
       z-index: 10;
   }
    .final{
@@ -894,8 +895,8 @@ position: fixed;
       margin-left: -300px;
    }
    .big img{
-      width: 37vh;
-      height: 30vh;
+      width: 48rem;
+      height: 38rem;
       border-radius: 0;
    }
   .picture{
@@ -925,21 +926,21 @@ position: fixed;
       width: 10px;
   }
   .previous , .next{
-      width: 10px;
-      height: 10px;
+      width: 15px;
+      height: 15px;
       padding: 9px 12px 20px 12px;
       border-radius: 50%;
       background-color: white;
       position: absolute;
      
-      top: 100px;
+      top: 400px;
       left: 0;
  }
  .previous{
   margin-left: -110px;
 }
 .next{
-  left: -280px;
+  left: -260px;
 }
 .company{
   margin-right: 100px;
@@ -967,21 +968,22 @@ position: fixed;
   margin-left: 250px;
 }
 .box{
-  width: 75%;
+  width: 23rem;
   border-radius: 10px;
   position: absolute;
   left: 25px;
   z-index: 1;
+  margin-left: 20px;
 }
 .box img{
-  width: 5%;
+  width: 3%;
   height: 12px;
 }
 #plus{
   margin-top: 21px;
 }
 .company button{
-  width: 88%;
+  width: 25rem;
   margin-top: 70px;
   /* position: absolute;
   bottom: -120px; */

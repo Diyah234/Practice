@@ -260,7 +260,7 @@ nav ul{
         top: 0;
      }
      .absolute1 img{
-        width: 30vh;
+        width: 30rem;
      }
      .box2{
         margin-top: 390px;
@@ -283,7 +283,7 @@ nav ul{
         width: 4%;
         padding: 20px 25px;
         position: absolute;
-        top: 389px;
+        top: 391px;
      }
      .left2{
         right: 60px;
@@ -304,6 +304,6 @@ nav ul{
         margin-top: 300px;
     }
     .second-flex img{
-        width: 30vh;
+        width: 30rem;
     }
 }
