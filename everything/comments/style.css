@@ -84,7 +84,7 @@ main{
     width: 1.5px;
     height: 270px;
     margin-left: 440px;
-    margin-right: -350px;
+    margin-right: -300px;
 }
 .line2{
     height: 500px;
@@ -106,8 +106,9 @@ main{
     height: 20px;
 }
 .color3{
-    margin-top: 50px;
-    margin-left: -10px;
+    margin-top: -100px;
+    margin-left: 370px;
+    
 }
 .time2{
     margin-left: 12px;
@@ -211,8 +212,8 @@ main{
     display: flex;
     flex-direction: row;
     display: none;
-    width: 32%;
-    margin-left: 550px;
+    width: 28%;
+    margin-left: 615px;
     margin-top: -210px;
 }
 .top{
@@ -222,6 +223,7 @@ main{
 }
 .top .text{
     width: 100%;
+    line-height: 1.5;
 }
 .submit2{
     display: flex;
@@ -290,8 +292,8 @@ main{
    margin-left: 5px;
 }
 .static-color2{
-   margin-left: 285px;
-   margin-top: -34px;
+   margin-left: 260px;
+   margin-top: -32px;
    background-color: #5257b4;
    width: 2px;
    height: 20px;
@@ -584,7 +586,7 @@ main{
         top: 250px;
     }
     .delete, .edit{
-        top: -166px;
+        top: -168px;
         position: relative;
         left: 57px;
         font-size: 12px;
@@ -593,7 +595,7 @@ main{
         width: 8%;
     }
     .edit{
-        left: 20px;
+        left: 25px;
     }
     .deletes, .edits{
         position: relative;
