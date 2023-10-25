@@ -73,3 +73,72 @@ p{
 .doctor img{
     width: 34rem;
 }
+@media screen and (min-width: 481px) {
+    .menu, .close{
+        display: none;
+    }
+}
+
+@media screen and (max-width:480px) {
+     ul, .col{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu{
+        margin-top: 30px;
+        margin-left: 10rem;
+    }
+    .menu:hover, .close:hover{
+        cursor: pointer;
+    }
+    .close{
+        margin-top: 30px;
+        margin-right: -40px;
+    }
+    #close{
+        display: none;
+    }
+    .logo{
+        margin-left: -55px;
+        margin-top: 20px;
+    }
+    .logo img{
+        width: 10rem;
+    }
+    button{
+        display: none;
+    }
+    .col{
+        position: absolute;
+        top: 90px;
+        right: 90px;
+        width: 12rem;
+        height: 12rem;
+        background-color: white;
+        text-align: center;
+        padding: 15px;
+        display: none;
+    }
+    li{
+        padding: 10px;
+    }
+    section{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+        height: 25rem;
+    }
+    .doctor{
+        margin-left: -80px;
+    }
+    .doctor img{
+        width: 25rem;
+    }
+    .med{
+        margin-left: -20px;
+    }
+    p{
+        width: 50rem;
+        font-size: 18px;
+    }
+}
