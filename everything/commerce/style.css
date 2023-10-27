@@ -722,6 +722,9 @@ body{
     .previous img , .next img{
         width: 10px;
     }
+    .flex2{
+      flex-wrap: wrap;
+    }
     .previous , .next{
         width: 10px;
         height: 10px;
@@ -734,10 +737,10 @@ body{
         left: 0;
    }
    .previous{
-    margin-left: -110px;
+      margin-left: -6rem;
   }
   .next{
-    left: -360px;
+    left: -24rem;
   }
   .company{
     margin-right: 100px;
