@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lily and T lipcare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="lily" href="#">Lily and T</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav center">
+                  <li class="">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="">
+                    <a class="nav-link" href="#">Lip-Gloss</a>
+                  </li>
+                  <li class="">
+                    <a class="nav-link" href="#">Lip-balm</a>
+                  </li>
+                  <li class="">
+                    <a class="nav-link" href="#">Lip-Scrub</a>
+                  </li>
+                </ul>
+                <div>
+                <button class="add" id="add">
+                    <div class="cart"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="17.5" cy="19.5" r="1.5"></circle></svg></div>
+                    <div class="text-cart">Cart</div>
+                </button>
+                <span class="num" id="num"></span>
+                </div>
+              </div>
+        </div>
+          </nav>
+    </header>
+    <div class="cart-box" id="cart-box">
+    <h3>Cart</h3>
+    <p>Items: <span id="items"></span></p>
+    <p>Total Price: <span id="total"></span></p><span class="trash" id="trash"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M5 20a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8h2V6h-4V4a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v2H3v2h2zM9 4h6v2H9zM8 8h9v12H7V8z"></path><path d="M9 10h2v8H9zm4 0h2v8h-2z"></path></svg></span>
+  </div>
+    <main>
+        <section>
+        <h2>Lip Gloss</h2>
+        <div class="row">
+            <div class="box col-lg-4">
+                <img src="images/absolute.jpeg" alt=""><br>
+                <button onclick="clicking()">Quick Add</button>
+                <p class="name">Absolute Lip Gloss</p>
+                <p class="price">&#8358;300</p>
+            </div>
+            <div class="box col-lg-4">
+                <img src="images/beautyrush.jpeg" alt=""><br>
+                <button onclick="clicking()">Quick Add</button>
+                <p class="name">Beauty Rush Gloss</p>
+                <p class="price">&#8358;800</p>
+            </div>
+            <div class="box col-lg-4">
+                <img src="images/kylie.jpeg" alt=""><br>
+                <button onclick="clicking()">Quick Add</button>
+                <p class="name">Champagne Toast Gloss</p>
+                <p class="price">&#8358;1200</p>
+            </div>
+            <div class="box col-lg-4">
+                <img src="images/shimmergloss.jpeg" alt=""><br>
+                <button onclick="clicking()">Quick Add</button>
+                <p class="name">Shimmer Gloss</p>
+                <p class="price">&#8358;900</p>
+            </div>
+            <div class="box col-lg-4">
+                <img src="images/glamgloss.png" alt=""><br>
+                <button onclick="clicking()">Quick Add</button>
+                <p class="name">Glam Gloss</p>
+                <p class="price">&#8358;1000</p>
+            </div>
+            <div class="box col-lg-4">
+                <img src="images/juicyTubes.jpeg" alt=""><br>
+                <button onclick="clicking()">Quick Add</button>
+                <p class="name">Juicy Tubes Gloss</p>
+                <p class="price">&#8358;1100</p>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <button id="decrease">-</button>
+        <label id="count">1</label>
+        <button id="increase">+</button>
+        <button class="cart2">ADD TO CART</button>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
