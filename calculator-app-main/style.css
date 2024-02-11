@@ -229,7 +229,7 @@ button:hover{
     }
     
 }
-@media screen and (min-width:551px){
+@media screen and (min-width:551px) and (max-width:780px){
     main{
         width: 60%;
     }
